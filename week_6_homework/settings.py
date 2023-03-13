@@ -1,0 +1,9 @@
+INPUT_DATA_PATH_FHV = "fhv_tripdata_2019-01_10k.csv"
+INPUT_DATA_PATH_GREEN = "green_tripdata_2019-01_10k.csv"
+BOOTSTRAP_SERVERS = 'pkc-l7q2j.europe-north1.gcp.confluent.cloud:9092'
+CLUSTER_API_KEY='DIBJAZKW5GDZFM5J'
+CLUSTER_API_SECRET='LiGBZPDKegT/Hn1mh8Y89etvFW5FDASVSq94VUVPAhZ14T/IAjIA6LXoqrri5Ols'
+KAFKA_TOPIC = 'rides_json'
+KAFKA_TOPIC_FHV = 'rides_fhv'
+KAFKA_TOPIC_GREEN = 'rides_green'
+
